@@ -4,8 +4,8 @@ const Card = ({ title, children }) => (
     borderRadius: 12,
     padding: 16,
     margin: 8,
-    boxShadow: "0 2px 8px rgba(0,0,0,0.05)"
-  }}>
+    boxShadow: "0 2px 8px rgba(0,0,0,0.05)",
+  }} className="card">
     {title && <h3>{title}</h3>}
     {children}
   </div>
