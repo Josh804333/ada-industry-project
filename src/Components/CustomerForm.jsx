@@ -45,8 +45,8 @@ const CustomerForm = ({ onAddCustomer }) => {
   };
   return (
     <>
-      <h2>Add New Customer</h2>
-      <p>Fill in the form below to save a new customer to the backend.</p>
+      <h2>Sign up</h2>
+      <p>Fill in the form below to Sign up.</p>
       {error && (
         <p className="form-error" aria-live="polite">
           {error}

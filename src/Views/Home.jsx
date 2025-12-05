@@ -13,9 +13,12 @@ const Home = () => {
       <h1>Welcome to ProactiCare</h1>
 
       <Card title="Mood">
-        <p>
-          
-        </p>
+        <img 
+  src="/Mood copy.png" 
+  alt="Mood progress chart" 
+  style={{ width: '100%' }} 
+/>
+       
       </Card>
       <Card title="Good morning!">
         

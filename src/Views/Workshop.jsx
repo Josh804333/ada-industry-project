@@ -16,7 +16,7 @@ const Workshop = () => {
       })
       .catch((err) => {
         console.error("Failed to fetch customers", err);
-        setError("Failed to load customers. Please try again.");
+        setError("Failed to log in. Please try again.");
       });
   }, []);
 
@@ -28,7 +28,7 @@ const Workshop = () => {
       })
       .catch((err) => {
         console.error("Failed to add customer", err);
-        setError("Failed to add customer. Please try again.");
+        setError("Successfully Signed  in ");
       });
   };
 
@@ -47,10 +47,9 @@ const Workshop = () => {
   };
   return (
     <div style={{ width: "100%" }}>
-      <h1>Workshop Blank Page</h1>
-      <p>Here is an example of a database connection using a python backend</p>
+      
       {error && (
-        <p style={{ color: "red" }} role="alert">
+        <p style={{ color: "Green" }} role="alert">
           {error}
         </p>
       )}

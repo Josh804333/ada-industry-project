@@ -11,12 +11,13 @@ const BlankPage = () => {
   return (
     <div style={{ width: "100%" }}>
       {/* Title */}
-      <h1>Workshop Blank Page</h1>
+      <h1>Mental health</h1>
       {/* Paragraph */}
-      <p>
-        Here is a blank page for you to start developing! Refer to the
-        instructions on <a href="/">Home</a> for steps to follow
-      </p>
+      <img 
+  src="/Mental health.png" 
+  alt="Mental health" 
+  style={{ width: '95%' }} 
+/>
       {/* Button */}
       <button
         onClick={() => {

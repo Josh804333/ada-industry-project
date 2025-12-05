@@ -21,7 +21,7 @@ const App = () => (
         {/* Setting up navigation bar */}
         <nav className="App-nav">
           <Link to="/">Home</Link>
-          <Link to="/workshop">Logging</Link>
+          <Link to="/workshop">Sign up</Link>
           <Link to="/blankPage">Mental Health</Link>
 
           {/* Add another route here... 
